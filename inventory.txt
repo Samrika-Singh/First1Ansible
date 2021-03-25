@@ -1,1 +1,2 @@
-target1 ansible_host=18.188.216.212 ansible_user=ubuntu
+[controller]
+18.188.216.212 ansible_ssh_user=ubuntu
