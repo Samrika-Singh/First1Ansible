@@ -1,2 +1,2 @@
 [controller]
-18.188.216.212 ansible_ssh_user=ubuntu
+18.221.101.154 ansible_user=ec2-user
