@@ -5,6 +5,6 @@
    tasks:
      -  name: create folder on target machine
         file:
-          src: /home/ubuntu/folder424
+          src: /home/ec2-user/folder424
           state: directory
 ...
