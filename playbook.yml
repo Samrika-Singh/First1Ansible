@@ -1,6 +1,6 @@
 ---
 -  name: "check target through ansible playbook"
-   hosts: target1
+   hosts: all
    become: true
    tasks:
      -  name: create folder on target machine
