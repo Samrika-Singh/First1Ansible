@@ -3,7 +3,7 @@
    hosts: localhost
    become: true
    tasks:
-     -  name: create folder on target machine
+     -  name: create folder on local machine
         file:
           src: /home/ec2-user/folder424
           state: directory
