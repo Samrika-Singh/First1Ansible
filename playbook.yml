@@ -5,6 +5,6 @@
    tasks:
      - name: create folder on local machine
        file:
-         src: /home/ec2-user/folder424
+         dest: /home/ec2-user/folder424
          state: directory
 ...
